@@ -1,0 +1,38 @@
+a {
+  font-family: 'VT323', monospace;
+  text-decoration: none;
+  color: #75CC70;
+}
+h1 {
+  font-family: 'VT323', monospace;
+  color: #3A4734;
+}
+body {
+  background-color: #8FFF92;
+}
+#wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#jokeResults {
+  padding: 5%;
+}
+img {
+  border-radius: 45%;
+  transition: transform 1s;
+  padding: 5%;
+}
+img:hover {
+  transform:scale(.9) rotate(5deg);
+  cursor: pointer;
+}
+footer {
+  font-family: 'VT323', monospace;
+  border: 1px solid #024959;
+  margin-top: 5%;
+  width: 100%;
+  background-color: #3A4734;
+  text-align: center;
+  color: #CEFFBA;
+  font-size: 1em;
+}
